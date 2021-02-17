@@ -16,7 +16,7 @@ import { DomainsService } from './domains.service'
 @Component({
   selector: 'app-domains',
   templateUrl: './domains.component.html',
-  styleUrls: ['./domains.component.sass']
+  styleUrls: ['./domains.component.scss']
 })
 export class DomainsComponent implements OnInit {
   public domains: Domain[] = []

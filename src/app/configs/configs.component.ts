@@ -15,7 +15,7 @@ import { ConfigsService } from './configs.service'
 @Component({
   selector: 'app-configs',
   templateUrl: './configs.component.html',
-  styleUrls: ['./configs.component.sass']
+  styleUrls: ['./configs.component.scss']
 })
 export class ConfigsComponent implements OnInit {
   public configs: CIRAConfig[] = []

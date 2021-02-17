@@ -14,7 +14,7 @@ import { ConfigsService } from '../configs.service'
 @Component({
   selector: 'app-config-detail',
   templateUrl: './config-detail.component.html',
-  styleUrls: ['./config-detail.component.sass']
+  styleUrls: ['./config-detail.component.scss']
 })
 export class ConfigDetailComponent implements OnInit {
   public configForm: FormGroup

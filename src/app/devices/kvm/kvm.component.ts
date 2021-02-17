@@ -6,7 +6,7 @@ import { AfterViewInit, Component, ElementRef, HostListener, Input, OnInit, View
 @Component({
   selector: 'app-kvm',
   templateUrl: './kvm.component.html',
-  styleUrls: ['./kvm.component.sass']
+  styleUrls: ['./kvm.component.scss']
 })
 export class KvmComponent implements OnInit, AfterViewInit {
   @ViewChild('canvas', { static: false }) canvas: ElementRef | undefined

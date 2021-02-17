@@ -14,7 +14,7 @@ import { DomainsService } from '../domains.service'
 @Component({
   selector: 'app-domain-detail',
   templateUrl: './domain-detail.component.html',
-  styleUrls: ['./domain-detail.component.sass']
+  styleUrls: ['./domain-detail.component.scss']
 })
 export class DomainDetailComponent implements OnInit {
   public domainForm: FormGroup
